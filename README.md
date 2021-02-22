@@ -63,7 +63,7 @@ Support me for the compatibility modifications (I really love coffee):
 * [Paypal.me](paypal.me/haise0)
 
 Support brainfucksec for making the original kalitorify by making a donation to his Bitcoin address:
-```
-1B39SnAXcR2bkxNpNy3AuckgaTshqNc2ce
-```
+
+* `1B39SnAXcR2bkxNpNy3AuckgaTshqNc2ce`
+
 Support djfdyuruiry by.. I don't know, I couldn't find anything. You should [ask him](https://gist.github.com/djfdyuruiry/6720faa3f9fc59bfdf6284ee1f41f950).
