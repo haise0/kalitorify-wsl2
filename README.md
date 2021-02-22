@@ -46,9 +46,9 @@ After that, go ahead and start kali (or your distribution of choice) back up aga
 
 4 - Make a backup of the iptables rules if they are present, see: [iptables](https://wiki.debian.org/iptables)
 
-5 - Pay the original authors a visit and say thanks:
-* [Braindedsec]
-* [djfdyuruiry]
+5 - See the original authors' documentations, and say thanks:
+* [Braindedsec](https://github.com/brainfucksec)
+* [djfdyuruiry](https://gist.github.com/djfdyuruiry)
 
 
 ## Support
