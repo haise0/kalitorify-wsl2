@@ -1,7 +1,7 @@
 # Kalitorify on WSL2 using systemd and iptables-legacy
 
 
-<img src="systemd-wsl2-kali/logo.png" width="440" hspace="20"/> <img src="kalitorify-wsl2-kali/logo.png" width="410"/> 
+<img src="systemd-wsl2-kali/logo.png" width="440" hspace="10"/> <img src="kalitorify-wsl2-kali/logo.png" width="410"/> 
 
 
 ## Summary 
