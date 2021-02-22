@@ -88,6 +88,7 @@ printf "${b}${white}
 
 =[ Transparent proxy through Tor
 =[ brainfucksec
+--{ haise0
 ${reset}\\n\\n"
 }
 
