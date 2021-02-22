@@ -7,6 +7,7 @@
 ## Summary 
 I got annoyed at the incompatibility issues of WSL2, so I modified [brainfucksec's kalitorify](https://github.com/brainfucksec/kalitorify) to utilize iptables-legacy instead of the new/current iptables to avoid a bunch of iptables errors when using his script. I also modified [djfdyuruiry's method of using systemd on WSL2](https://gist.github.com/djfdyuruiry/6720faa3f9fc59bfdf6284ee1f41f950) to support the required systemctl commands in kalitorify, rather than using the WSL default sysvinit and `service` commands (I also fixed the corruption of the WSL distro thanks to the issue thread [here](https://github.com.cnpmjs.org/DamionGans/ubuntu-wsl2-systemd-script/issues/36#issuecomment-732090101)). For Ubuntu/Debian-based WSL2.  
 
+Ultimately achieves "system-wide" tor on a kali (or other debian based) distribution for WSL2.
 Confirmed functional on kali-rolling for WSL2, kernel vesion 5.4.91.
 
 
