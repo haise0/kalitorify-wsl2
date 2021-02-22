@@ -1,5 +1,9 @@
 # Kalitorify on WSL2 using systemd and iptables-legacy
 
+
+<img src="systemd-wsl2-kali/logo.png" width="425"/> <img src="kalitorify-wsl2-kali/logo.png" width="425"/> 
+
+
 ## Summary 
 I got annoyed at the incompatibility issues of WSL2, so I modified [brainfucksec](https://github.com/brainfucksec/)'s kalitorify to utilize iptables-legacy to avoid a bunch of iptables errors when using his script, and modified [djfdyuruiry](https://gist.github.com/djfdyuruiry/6720faa3f9fc59bfdf6284ee1f41f950)'s method of enabling systemd to support systemctl commands, rather than the WSL default sysvinit, for Ubuntu/Debian-based WSL2 - also fixed to prevent corrupting the distribution from the script on his main branch. 
 
