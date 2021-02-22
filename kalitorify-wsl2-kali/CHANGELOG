@@ -1,0 +1,54 @@
+/* kalitorify CHANGELOG */
+
+```
+Format:
+
+/** version number / date **/
+
+[committer] username
+
+arguments
+
+```
+
+/** 1.24.0 / 2020-10-03 **/
+
+[committer] brainfucksec
+
+Clean CHANGELOG file, please see `CHANGELOG.old` file for old changes.
+
+IMPORTANT:
+
+Only changes that are important to users will be written to this file.
+Please see git `/commits/master` for technical details of the program changes.
+
+
+/** 1.24.3 / 2020-12-10 **/
+
+[committer] brainfucksec
+
+Add exception (check tor service) on `stop()` function.
+
+
+/** 1.24.4 / 2020-12-21 **/
+
+[committer] brainfucksec
+
+BUGFIX, fix `start()` function (add `check_settings()`).
+
+See: ISSUE #52
+
+
+/** 1.25.0 / 2021-01-XX **/
+
+[committer] brainfucksec
+
+Improve function for check program settings
+Improve output messages
+
+/** 1.25.1 / 2021-02-22**/
+
+[committer] haise0
+
+Patch script for compatibility with WSL2 kernel version 5.4.91.
+Change name appropriately.
