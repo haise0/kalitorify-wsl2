@@ -43,9 +43,9 @@ Services and programs that use kalitorify (such as iptables-legacy) work at the 
 
 **Before starting kalitorify-wsl2:**
 
-1 - All of the commands remain the [same as the original kalitorify project]() for ease of access and familiarity.
+1 - All of the [commands]() remain the same as the original kalitorify project for ease of access and familiarity.
 
-2 - Please make sure you have read braindedsec's section about [Security](https://github.com/BrainfuckSec/kalitorify#security).
+2 - Please make sure you have read braindedsec's section about [Security](https://github.com/BrainfuckSec/kalitorify#usage).
 
 3 - Disable or make appropriate modifications to your firewall if is active.
 
