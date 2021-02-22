@@ -1,7 +1,7 @@
 # Kalitorify on WSL2 using systemd and iptables-legacy
 
 
-<img src="systemd-wsl2-kali/logo.png" width="410"/> <img src="kalitorify-wsl2-kali/logo.png" width="410"/> 
+<img src="systemd-wsl2-kali/logo.png" width="440" hspace="20"/> <img src="kalitorify-wsl2-kali/logo.png" width="410"/> 
 
 
 ## Summary 
@@ -17,24 +17,25 @@ git clone https://github.com/haise0/kalitorify-wsl2/tree/main/kalitorify-wsl2-ka
 cd kalitorify-wsl2
 ```
 
-### kalitorify-wsl2
+### Install kalitorify-wsl2
 ```
 cd kalitorify-wsl2-kali
 sudo make install
 ```
 
-### systemd
+### Install systemd
 ```
 cd systemd-wsl2-kali
 sudo make install
 ```
 
-### After kalitorify-wsl2 and systemd are installed
-Enter a powershell or cmd.exe window as Administrator and shutdown WSL:
+### Reboot
+Enter a powershell or cmd.exe window as Administrator and shutdown WSL to reboot:
 ```
 wsl --shutdown
 ```
 After that, go ahead and start kali (or your distribution of choice) back up again. 
+Services and programs that use kalitorify (such as iptables-legacy) work at the kernel level. Rebooting WSL helps the operating system to avoid conflicts or leaks.
 
 ## Usage
 
@@ -42,7 +43,7 @@ After that, go ahead and start kali (or your distribution of choice) back up aga
 
 **Before starting kalitorify-wsl2:**
 
-1 - All of the commands remain the same as the original kalitorify project for ease of access and familiarity.
+1 - All of the commands remain the [same as the original kalitorify project]() for ease of access and familiarity.
 
 2 - Please make sure you have read braindedsec's section about [Security](https://github.com/BrainfuckSec/kalitorify#security).
 
