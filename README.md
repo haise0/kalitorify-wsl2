@@ -5,7 +5,7 @@
 </p>
 
 ## Summary 
-I got annoyed at the incompatibility issues of WSL2, so I modified [brainfucksec](https://github.com/brainfucksec/)'s kalitorify to utilize iptables-legacy to avoid a bunch of iptables errors when using his script, and modified [djfdyuruiry](https://gist.github.com/djfdyuruiry/6720faa3f9fc59bfdf6284ee1f41f950)'s method of enabling systemd to support the required systemctl commands in kalitorify, rather than using the WSL default sysvinit and `service` commands, for Ubuntu/Debian-based WSL2 - also fixed to prevent corrupting the distribution from the script on his main branch. 
+I got annoyed at the incompatibility issues of WSL2, so I modified [brainfucksec's kalitorify](https://github.com/brainfucksec/kalitorify) to utilize iptables-legacy instead of the new/current iptables to avoid a bunch of iptables errors when using his script. I also modified [djfdyuruiry's method of using systemd](https://gist.github.com/djfdyuruiry/6720faa3f9fc59bfdf6284ee1f41f950) to support the required systemctl commands in kalitorify, rather than using the WSL default sysvinit and `service` commands (I also fixed the corruption of the WSL distro thanks to the issue thread [here](https://github.com/openshift/origin/issues/15802)). For Ubuntu/Debian-based WSL2.  
 
 Confirmed functional on kali-rolling for WSL2, kernel vesion 5.4.91.
 
