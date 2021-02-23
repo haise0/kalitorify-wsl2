@@ -5,9 +5,9 @@
 </p>
 
 ## Summary 
-I got annoyed at the incompatibility issues of WSL2, so I modified [brainfucksec's kalitorify](https://github.com/brainfucksec/kalitorify) to utilize iptables-legacy instead of the new/current iptables to avoid a bunch of iptables errors when using his script. I also modified <dude> to support the required systemctl commands in kalitorify, rather than using the WSL default sysvinit and `service` commands (I also fixed the corruption of the WSL distro thanks to the issue thread [here](https://github.com.cnpmjs.org/DamionGans/ubuntu-wsl2-systemd-script/issues/36#issuecomment-732090101)). For Ubuntu/Debian-based WSL2.  
+I got annoyed at the incompatibility issues of WSL2, so I modified [brainfucksec's kalitorify script](https://github.com/brainfucksec/kalitorify) to utilize iptables-legacy instead of the new/current iptables to avoid a bunch of iptables errors when using his script. I also modified [DamionGans's systemd script](https://github.com/DamionGans/ubuntu-wsl2-systemd-script) to support the required systemctl commands in kalitorify, rather than taking the time to patch it with the WSL default sysvinit and `service` commands (I also fixed the corruption of the WSL2 distro thanks to the issue thread [here](https://github.com/DamionGans/ubuntu-wsl2-systemd-script/issues/36#issuecomment-732090101)) (thank you, [pablorq](https://github.com/pablorq)!). For Ubuntu/Debian-based WSL2.  
 
-Ultimately achieves "system-wide" tor on a kali (or other debian based) distribution for WSL2.
+Ultimately achieves a "system-wide" transparent tor proxy on kali-linux (or other debian-based distributions) for WSL2.
 Confirmed functional on kali-rolling for WSL2, kernel vesion 5.4.91.
 
 
