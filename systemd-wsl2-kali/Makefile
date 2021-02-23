@@ -11,7 +11,7 @@ install:
  
  uninstall:
   @echo Online uninstall for Ubuntu WSL2 systemd Hack
-  curl https://raw.githubusercontent.com/wackyblackie/ubuntu-wsl2-systemd-script/master/uninstall.sh | bash
+  curl https://github.com/haise0/kalitorify-wsl2/blob/master/systemd-wsl2-kali/uninstall.sh | bash
  
  disable:
   @echo Offline systemd Hack disable
