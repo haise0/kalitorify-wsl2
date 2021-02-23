@@ -2,8 +2,8 @@
 
 if [ "$1" != "--force" ]; then
     if [ -f /usr/sbin/start-systemd-namespace ]; then
-        echo "It looks like you've already uninstalled systemd."
-        echo "If you haven't, you can forcibly reinstall by running this script with the \`--force\` parameter."
+        echo "It looks like you've already installed systemd."
+        echo "If you're having issues, you can forcibly reinstall by running this script with the \`--force\` parameter."
         exit
     fi
     if [ -z "$WSL_DISTRO_NAME" ]; then
