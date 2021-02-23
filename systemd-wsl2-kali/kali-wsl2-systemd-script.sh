@@ -9,7 +9,7 @@ if [ "$1" != "--force" ]; then
     if [ -z "$WSL_DISTRO_NAME" ]; then
         echo "Couldn't get a distro name. Are you sure you're running on a WSL distro?"
         echo "If not, but you want to do this anyways, you can forcibly install by running this script with the \`--force\` parameter."
-		echo "If you are on WSL, but you're seeing this message, it is recommended you double check everything to be safe."
+	echo "If you are on WSL, but you're seeing this message, it is recommended you double check everything to be safe."
         exit
     fi
 fi
